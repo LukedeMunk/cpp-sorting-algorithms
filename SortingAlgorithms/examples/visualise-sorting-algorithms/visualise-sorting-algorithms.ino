@@ -2,8 +2,8 @@
  * File:      sorting.ino
  * Author:    Luke de Munk
  * 
- * Example for the sorting package.
- * For more info checkout: https://github.com/LukedeMunk/cpp-sorting-algorithms
+ * Example for the sorting package with visualisation option. Needs an SSD1306 display.
+ * For more info (including wiring) checkout: https://github.com/LukedeMunk/cpp-sorting-algorithms
  */
 #include "QuickSort.h"
 #include "MergeSort.h"
@@ -12,9 +12,9 @@
 #include "BubbleSort.h"
 #include "TestUtility.h"
 
-
 #define SCREEN_WIDTH  128                                                   //OLED display width, in pixels
 #define SCREEN_HEIGHT 32                                                    //OLED display height, in pixels
+
 QuickSort qs;
 MergeSort ms;
 SelectionSort ss;
