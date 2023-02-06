@@ -1,6 +1,6 @@
 # C++ sorting algorithms
 
-Sorting algorithms suitable for Arduino or ESP based microcontrollers. Can be used as library and to visualise sorting algorithms (see `Visualise with ST7735 display`). The software is tested on the following boards:
+Sorting algorithms suitable for Arduino or ESP based microcontrollers. Can be used as library and to visualise sorting algorithms (see `Visualise with SSD1306 display`). The software is tested on the following boards:
 
 * ESP32 DEVKIT V1
 
@@ -28,9 +28,9 @@ The software is written, compiled and uploaded using the Arduino IDE (v1.8.13). 
 
 Clone the repository, copy the `SortingAlgorithms` map in the Arduino libraries map (default path: `C:\Users\\[name]\Documents\Arduino\libraries`). For testing, you can navigate to the `examples` map and try some examples. You can also use the `TestUtility.h` functions to print lists with a single line.
 
-## Visualise with ST7735 display
+## Visualise with SSD1306 display
 
-If you are looking to a way to visualise different sorting algorithms, then you can use a ST7735 display. Navigate to the `examples\visualise-sorting-algorithms` map and upload the `visualise-sorting-algorithms.ino` program. Connect the hardware and look at the visualisations. In the map `documentation` you can find a wiring diagram.
+If you are looking to a way to visualise different sorting algorithms, then you can use a SSD1306 display. Navigate to the `examples\visualise-sorting-algorithms` map and upload the `visualise-sorting-algorithms.ino` program. Connect the hardware and look at the visualisations. In the map `documentation` you can find a wiring diagram.
 
 ## Questions or feedback?
 
